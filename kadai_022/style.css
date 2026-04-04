@@ -14,7 +14,6 @@ body{
 
 a{
     font-size: 20px;
-    text-align: center;
 }
 
 header{
@@ -80,6 +79,6 @@ footer{
         font-size: 25px;
     }
     #parent{
-        display: block;
+        flex-direction: column;
     }
 }
