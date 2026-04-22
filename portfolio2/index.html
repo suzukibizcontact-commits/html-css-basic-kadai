@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <div class="logo-text">
+                <h1>My portfolio</h1>
+            </div>
+        </div>
+        
+        <nav class="nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#service">Service</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="hero" class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">
+                    美しく、使いやすい<br>
+                    <span class="highlight">Webサイト制作</span>
+                </h2>
+                <p class="hero-description">
+                    中小企業様向や個人経営者向のwebページ制作をサポート<br>
+                </p>
+                
+                <a href="#" class="cta-button">見積依頼・相談</a>
+            </div>
+
+            <div class="hero-visual">
+                <!-- Works Preview Slider -->
+                <div class="hero-slider">
+                    <div class="slide active" data-index="0">
+                        <div class="slide-mockup">
+                            <div class="mockup-pc">
+                                <img src="screenshots/aqua_salon_pc.png" alt="AQUA HAIR SALON PC版" loading="lazy">
+                            </div>
+                            <div class="mockup-sp">
+                                <img src="screenshots/aqua_salon_sp.png" alt="AQUA HAIR SALON スマホ版" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="slide-label">
+                            <p class="slide-num">01 / 03</p>
+                            <p class="slide-name">AQUA HAIR SALON</p>
+                            <p class="slide-type">Landing Page</p>
+                        </div>
+                    </div>
+
+                    <div class="slide" data-index="1">
+                        <div class="slide-mockup">
+                            <div class="mockup-pc">
+                                <img src="screenshots/aura_magazine_pc.png" alt="AURA MAGAZINE PC版" loading="lazy">
+                            </div>
+                            <div class="mockup-sp">
+                                <img src="screenshots/aura_magazine_sp.png" alt="AURA MAGAZINE スマホ版" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="slide-label">
+                            <p class="slide-num">02 / 03</p>
+                            <p class="slide-name">AURA MAGAZINE</p>
+                            <p class="slide-type">Beauty Media</p>
+                        </div>
+                    </div>
+
+                    <div class="slide" data-index="2">
+                        <div class="slide-mockup">
+                            <div class="mockup-pc">
+                                <img src="screenshots/cafe_pc.png" alt="CAFE PC版" loading="lazy">
+                            </div>
+                            <div class="mockup-sp">
+                                <img src="screenshots/cafe_sp.png" alt="CAFE スマホ版" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="slide-label">
+                            <p class="slide-num">03 / 03</p>
+                            <p class="slide-name">CAFE</p>
+                            <p class="slide-type">Food &amp; Drink</p>
+                        </div>
+                    </div>
+
+                    <div class="slider-dots">
+                        <button class="dot active" data-slide="0" aria-label="AQUA HAIR SALON"></button>
+                        <button class="dot" data-slide="1" aria-label="AURA MAGAZINE"></button>
+                        <button class="dot" data-slide="2" aria-label="CAFE"></button>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2 class="section-title">About Me</h2>
+                <h3 class="about-subtitle">価値を届けるデザインと技術</h3>
+                <p class="about-description">
+                    はじめまして。私はWebサイト制作を通じて、ビジネスの成長をサポートしています。<br>
+                    単に見た目が美しいだけでなく、ユーザーが迷わず目的を達成できる設計、そして運用しやすい構築を心がけています。
+                </p>
+                <p class="about-description">
+                    お客様の抱える課題や理想を丁寧にお伺いし、最適なソリューションをご提案いたします。<br>
+                    個人開発から小規模ビジネスのサイト制作まで、幅広く対応可能です。
+                </p>
+            </div>
+        </section>
+
+        <section id="works" class="works">
+            <div class="works-container">
+                <h2 class="section-title">Works</h2>
+                <h3 class="about-subtitle">これまで手がけた代表的なプロジェクトを紹介します</h3>
+                
+                <div class="works-grid">
+
+                    <article class="work-card">
+                        <a href="../aqua_salon/index.html" class="work-card-link" target="_blank" rel="noopener">
+                            <div class="work-mockup">
+                                <div class="work-mockup-pc">
+                                    <img src="screenshots/aqua_salon_pc.png" alt="AQUA HAIR SALON PC版" loading="lazy">
+                                </div>
+                                <div class="work-mockup-sp">
+                                    <img src="screenshots/aqua_salon_sp.png" alt="AQUA HAIR SALON スマホ版" loading="lazy">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="work-info">
+                            <p class="work-category">Hair Salon / Landing Page</p>
+                            <h3 class="work-title">AQUA HAIR SALON</h3>
+                            <p class="work-desc">20代女性向けの透明感をテーマにしたヘアサロンLP。ピンク×ローズボルドーの配色で上質な世界観を表現。</p>
+                            <a href="../aqua_salon/index.html" class="work-link" target="_blank" rel="noopener">View Site →</a>
+                        </div>
+                    </article>
+
+                    <article class="work-card">
+                        <a href="../aura_magazine/index.html" class="work-card-link" target="_blank" rel="noopener">
+                            <div class="work-mockup">
+                                <div class="work-mockup-pc">
+                                    <img src="screenshots/aura_magazine_pc.png" alt="AURA MAGAZINE PC版" loading="lazy">
+                                </div>
+                                <div class="work-mockup-sp">
+                                    <img src="screenshots/aura_magazine_sp.png" alt="AURA MAGAZINE スマホ版" loading="lazy">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="work-info">
+                            <p class="work-category">Beauty Media / Magazine Top</p>
+                            <h3 class="work-title">AURA MAGAZINE</h3>
+                            <p class="work-desc">ヘア＆ビューティー情報メディアのトップページ。雑誌のような洗練されたグリッドレイアウトが特徴。</p>
+                            <a href="../aura_magazine/index.html" class="work-link" target="_blank" rel="noopener">View Site →</a>
+                        </div>
+                    </article>
+
+                    <article class="work-card">
+                        <a href="../cafe/soleil-index.html" class="work-card-link" target="_blank" rel="noopener">
+                            <div class="work-mockup">
+                                <div class="work-mockup-pc">
+                                    <img src="screenshots/cafe_pc.png" alt="CAFE PC版" loading="lazy">
+                                </div>
+                                <div class="work-mockup-sp">
+                                    <img src="screenshots/cafe_sp.png" alt="CAFE スマホ版" loading="lazy">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="work-info">
+                            <p class="work-category">Food &amp; Drink / Website</p>
+                            <h3 class="work-title">CAFE</h3>
+                            <p class="work-desc">カフェのブランドサイト。温かみのある配色と余白を活かしたミニマルデザイン。</p>
+                            <a href="../cafe/soleil-index.html" class="work-link" target="_blank" rel="noopener">View Site →</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="skills-container">
+                <h2 class="section-title">Skills</h2>
+                <h3 class="about-subtitle">価値を形にするためのスキルセット</h3>
+                <div class="skills-list">
+                    <div class="skill-category">
+                        <h4>Design</h4>
+                        <div class="tags">
+                            <span>Figma</span>
+                            <span>Adobe XD</span>
+                            <span>Photoshop</span>
+                            <span>UI/UX Design</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Development</h4>
+                        <div class="tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>WordPress</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="service" class="service">
+            <div class="service-container">
+                <h2 class="section-title">Service</h2>
+                <h3 class="about-subtitle">ビジネスの課題を解決するサポート</h3>
+                <div class="service-grid">
+                    <div class="service-item">
+                        <h4>Web制作</h4>
+                        <p>LPからコーポレートサイトまで、目的に合わせたWebサイトを制作します。</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>デザイン</h4>
+                        <p>使いやすさと美しさを両立した、ブランド価値を高めるデザインを提案します。</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>運用・保守</h4>
+                        <p>公開後の更新作業やトラブル対応など、安心して運用できるようサポートします。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-social">
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script>
+    (function () {
+        var slides = document.querySelectorAll('.hero-slider .slide');
+        var dots   = document.querySelectorAll('.hero-slider .dot');
+        var current = 0;
+        var timer;
+
+        function goTo(index) {
+            slides[current].classList.remove('active');
+            dots[current].classList.remove('active');
+            current = (index + slides.length) % slides.length;
+            slides[current].classList.add('active');
+            dots[current].classList.add('active');
+        }
+
+        function startAuto() {
+            timer = setInterval(function () { goTo(current + 1); }, 4000);
+        }
+
+        dots.forEach(function (dot, i) {
+            dot.addEventListener('click', function () {
+                clearInterval(timer);
+                goTo(i);
+                startAuto();
+            });
+        });
+
+        startAuto();
+    })();
+    </script>
+</body>
+</html>
